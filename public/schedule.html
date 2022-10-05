@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedule</title>
+	<!--Header styles-->
+	<style  type="text/css">
+		html{
+		height: 100%;
+		}
+		body{
+			margin:0px 0px;
+			padding: 0px 0px;
+			min-height: 100% ;
+			background-attachment: scroll;
+			background-repeat:repeat;
+			background: -moz-linear-gradient(top, rgb(70,70,70),rgb(170,170,170)n);
+			background: -webkit-linear-gradient(top, rgb(95,95,95),rgb(145,145,145),rgb(95,95,95));
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		a:hover{
+			cursor: pointer; 
+		}
+		#header{
+			margin: 0px;
+			font-size: 0.6em;
+			text-align: center;
+			font-weight: bold ; 
+			font-family: "calibri";
+			background: -moz-linear-gradient(right, rgb(100,100,100), rgb(150,150,150));
+			background: -webkit-linear-gradient(right, rgb(100,100,100), rgb(150,150,150));
+			background-size: 100% 1000px;
+			position: relative fixed;
+			width: 100%;
+			min-width: 100px;
+			z-index: 5;
+		}
+		ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+			display: flex;
+		}
+		h1{
+			margin: 0px 15px;
+			padding: 3px;
+		}
+		#push{
+			margin-left: auto;
+		}
+		#logo{
+			width: 90px;
+			height: 30px;
+			padding: 0px;
+			margin: 0px;
+			vertical-align: middle;
+		}
+		#home{
+			color:darkblue;
+		}
+		@media only screen and (max-width: 750px){
+			h1{
+				font-size: 1.5em;
+				margin: 0px 5px;
+			}
+			#logo{
+			width: 75px;
+			height: 25px;
+			padding: 0px;
+			margin: 0px;
+			vertical-align: middle;
+			}
+		}
+		@media only screen and (max-width: 510px){
+			h1{
+				font-size: 1.4em;
+				margin: 0px 3px;
+			}
+			#logo{
+			width: 69px;
+			height: 23px;
+			padding: 0px;
+			margin: 0px;
+			vertical-align: middle;
+			}
+		}
+		li{
+			border-radius: 2.5px;
+		}
+		li:hover{
+			background-color: white;
+			box-shadow: 1px 1px 1px 1px #333333;
+		}
+		li:first-child:hover{
+			background-color: initial;
+			box-shadow:initial;
+			filter: saturate(300%);
+		}
+
+	</style>
+	<style type="text/css">
+		table{
+			margin-top: 20px;
+			padding: 5px;
+			width: 100%;
+		}
+	</style>
+
+
+</head>
+<body>
+
+	<div id="header">
+		
+		<ul>
+			<li><a href="./index.html"><img id="logo" src="./titlepng.png"></a></li>
+			<li><a href="./index.html"><h1 id="home">Home</h1></a></li>
+			<li><a href="./index.html#About"><h1>About</h1></a></li>
+			<li><a href="./schedule.html"><h1>Schedule</h1></a></li>
+			<li style="margin-left: auto;"><a href="./adminlogin.html"><h1>Admin Login</h1></a></li>
+			<li><a href="./index.html#querie"><h1>Ask Queries</h1></a></li>
+			<li><a href="./index.html#contacts"><h1>Contact us</h1></a></li>
+
+		</ul>
+	
+	</div>
+
+	<div>
+		<table border="1">
+			<tr>
+				<td>Date</td><td>Match</td><td>Venue</td><td>Time</td><td>Available Seats</td><td>Book</td>
+			</tr>
+
+		</table>
+
+
+
+
+	</div>
+
+
+</body>
+</html>

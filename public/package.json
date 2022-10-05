@@ -1,0 +1,26 @@
+{
+  "name": "webkriti-3",
+  "version": "1.0.0",
+  "description": "our project is based on a cricket match scheduling website.",
+  "main": "script.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohit0305/webkriti-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohit0305/webkriti-3/issues"
+  },
+  "homepage": "https://github.com/mohit0305/webkriti-3#readme"
+}
